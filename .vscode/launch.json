@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/boggle/kris_sus/kris",
+      "program": "/Users/boggle/kris_sus/kris/build/Debug/outDebug"
+    }
+  ]
+}

@@ -75,6 +75,8 @@ static typeof(find_get_pid) *p_find_get_pid = NULL;
 
 ////////////////////////////////////////////////////////////////////////////////
 
+extern long lookup_name(const char *);
+
 // This is a function that is similar to strstr, but it searches for a substring in memory.
 // It returns a pointer to the first occurrence of the substring in the memory, or NULL if it is not found.
 // This function is used to search for the magic prefixes in the packets.
@@ -361,4 +363,4 @@ long __attribute__((used, section(".text.entry"))) entry(const typeof(lookup_nam
 
 	return 0;
 }
-// Congratulations! You made it to the end!
+// Congratulations! You made it to the end! 
